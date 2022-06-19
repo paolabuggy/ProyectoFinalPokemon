@@ -1,0 +1,300 @@
+.headerimg{
+    height: 600px;
+    background-image: url("../../assets/img/PokemonallBackground.jpg");
+    margin-left: -11%;
+    margin-right: -11%;
+    margin-top: -3%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.textoheader{
+    margin-bottom: 50px;
+
+
+    height: 100px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    border-bottom: 100px solid rgba(0, 0, 0, 0.712);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 500px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+.tituloheader{
+    background-color: orange;
+    border: 1px solid brown;
+    width: 200px;
+    height: 50px;
+    transform: translateY(-20px);
+    text-align: center;
+    padding-top: 10px;
+
+    border-radius: 20px 0px 20px 0px;
+}
+
+.cuerpoheader{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    transform: translateY(-35px);
+}
+
+.equipo{
+    height: 600px;
+    background-image: url("../../assets/img/poketeam.jpg");
+    margin-left: -11%;
+    margin-right: -11%;
+    margin-top: -3%;
+    background-size:cover;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+
+
+    .equipobotones{
+        width: 300px;
+        height: 100px;
+        transform: skew(20deg);
+        background: rgba(0, 0, 0, 0.719);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .botonequipo{
+        border-radius: 10px;
+        background-color: orange;
+        border: 1px solid brown;
+        height: 40px;
+        width: 220px;
+        transform: skew(-20deg);
+        
+    }
+
+
+.infoHome{
+    background-color: darkmagenta;
+    margin-left: -11%;
+    margin-right: -11%;
+}
+.infoHome p{
+    color: white;
+}
+
+.infSuperior{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.contactos{
+    width: 400px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.noticias{
+    padding-top: 20px;
+}
+.infoUnite{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 10;
+    width: 400px;
+}
+.etiquetas{
+    display: flex;
+    flex-direction: column;
+    margin: 10;
+    padding: auto;
+    width: 400px;   
+}
+
+    
+.roster{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.textoroster{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetaroster{
+    background-image: linear-gradient(to left, rgb(56, 1, 80) , rgb(255, 255, 255, 1));
+    /*background-color: rgb(56, 1, 80);*/
+    width: 100%;
+    height: 150px;
+
+    border-radius: 50px 0px 0px 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+
+    
+    border-left: 2px solid orange;
+    border-bottom: 2px solid rgb(56, 1, 80);
+    transform: translateX(94px);
+}
+
+.arriba{
+    width: 100%;
+    padding-left: 50px;
+
+    border-radius: 50px 0px 0px 0px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0)0%, rgba(255,165,0,1)20%);
+    margin-right: 100px;
+}
+
+.abajo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 120px;
+}
+
+
+.carrusel{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-20px);
+
+
+}
+
+.carousel{
+    width: 60%;
+    border: 10px solid rgb(56, 1, 80);
+    background-color: rgb(56, 1, 80);
+    border-radius: 20px;
+}
+.foto{
+    width: 100%; 
+    border-radius: 20px;
+}
+
+
+#Defensivo>.foto{
+    background-color: rgb(0, 255, 0);
+    background-image: url(https://unite.pokemon.com/images/footer/background.jpg);
+    background-size: 50%;
+    background-blend-mode:hard-light;
+}
+#Ofensivo>.foto{
+    background-color: rgb(253, 122, 0);
+    background-image: url(https://unite.pokemon.com/images/footer/background.jpg);
+    background-size: 50%;
+    background-blend-mode:hard-light;
+}
+#Apoyo>.foto{
+    background-color:rgb(157, 255, 0);
+    background-image: url(https://unite.pokemon.com/images/footer/background.jpg);
+    background-size: 50%;
+    background-blend-mode:hard-light;
+}
+#Agil>.foto{
+    background-color: rgb(0, 255, 234);
+    background-image: url(https://unite.pokemon.com/images/footer/background.jpg);
+    background-size: 50%;
+    background-blend-mode:hard-light;
+}
+#Equilibrado>.foto{
+  background-color: purple;
+  background-image: url(https://unite.pokemon.com/images/footer/background.jpg);
+  background-size: 50%;
+  background-blend-mode: hard-light;
+}
+
+.infoInferior, .contenSnor{
+    display: flex;
+    flex-direction: column;
+}
+.registrosLegales{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.lineorange{
+    color: darkorange;
+    font-size: 30px;
+}
+.registrosLegales a, a:focus, a:active{
+    text-decoration: none;
+    color: darkorange;
+    font-size: 30px;
+}
+.registrosLegales a:hover{
+    color:orange;
+}
+.registrosDatos p{
+    text-align: center;
+    font-size: 15px;
+}
+img {
+    display: block;
+  }
+.centrar{
+    padding-top: 20px;
+    align-self: center;
+}
+.derechas{
+    padding-top: 20px;
+    align-self:flex-end;
+}
+.snor{
+    width: 60%;
+    height: 60%;
+    align-self: center;
+}
